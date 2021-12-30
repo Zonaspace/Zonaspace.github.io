@@ -470,9 +470,10 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #00bdbf;
+  background: white;
   position: relative;
   padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .owl-item {
@@ -481,12 +482,17 @@ nav ul li a {
 .services-block span {
   margin: 10px 0;
   position: relative;
-  font-size: 13px;
-  color: #fff;
+  font-size: 20px;
+  color: black;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
   display: block;
+}
+
+.services-block p {
+  color: black;
+  font-size: 15px !important;
 }
 
 .services-block .separator {
@@ -607,7 +613,7 @@ nav ul li a {
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: white;
   padding-bottom: 60px;
   position: relative;
 }
